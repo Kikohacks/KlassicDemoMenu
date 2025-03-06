@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+}
+
+.view{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    max-width: 600px;
+    height: fit-content;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.view div{
+    border: 3px solid #8e7718;
+    width: 229.5px;
+    height: 360px;
+    border-radius: 20px;
+}
+
+.view div .soda-image img {
+    width: fit-content;
+    height: 230px;
+    margin: auto;
+}
+
+.view div .soda-image {
+    display: flex;
+    justify-content: center;
+    width: 229.5px;
+    height: 300px;
+    border: none;
+}
+
+.view div .price-and-name {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top: 2px solid #8e7718;
+    height: fit-content;
+}
+
+.back{
+    width: fit-content;
+    height: fit-content;
+    z-index: 1;
+    position: fixed;
+}
+
+.back div {
+    width: fit-content;
+    height: fit-content;
+}
+
+.back div img {
+    width: 60px;
+    z-index: 1;
+    cursor: pointer;
+    background-color: #8e7718;
+    border-radius: 100%;
+}
+
+.view .price-and-name {
+    text-align: center;
+}
+
+.view .price-and-name h1{
+    color: white;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+}

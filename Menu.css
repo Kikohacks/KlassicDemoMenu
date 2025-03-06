@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+}
+
+.choose{
+    width: 100px;
+}
+
+.choose a div h1{
+    font-family: "Overpass", serif;
+    font-size: 20px;
+}
+
+.choose div{
+    width: 250px;
+    height: 150px;
+    border: 8px solid #8e7718;
+    border-radius: 12px;
+    text-align: center;
+    align-content: center;
+    background-color: white;
+}
+
+.choose{
+    margin: auto;
+    justify-items: center;
+    align-content: center;
+    display: grid;
+    gap: 100px;
+    margin-top: 40px;
+    margin-left: 110px;
+}
+
+.choose a{
+    text-decoration: none;
+    list-style: none;
+    color: #8e7718;
+}
+
+.choose a div img{
+    width: 80px;
+    height: 100px;
+}
+
+.back{
+    width: fit-content;
+    height: fit-content;
+    z-index: 1;
+    position: fixed;
+}
+
+.back div {
+    width: fit-content;
+    height: fit-content;
+}
+
+.back div img {
+    width: 60px;
+    z-index: 1;
+    cursor: pointer;
+    background-color: #8e7718;
+    border-radius: 100%;
+}
